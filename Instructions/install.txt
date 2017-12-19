@@ -1,0 +1,8 @@
+To install the GBA emulator and the compiler toolchain, enter these commands
+ one at a time
+sudo apt-get install gcc-arm-none-eabi
+sudo apt-get install libnewlib-arm-none-eabi
+sudo apt-get install cs2110-vbam-sdl
+
+To run the game:
+make vba
